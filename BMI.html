@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Calculate BMI</title>
+    <link rel="stylesheet" href="BMI.css">
+    <script src="/BMI.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <h1>BODY MASS INDEX CALCULATOR</h1>
+        <div class="box">
+            <div class="line1">
+                <div>
+                    <input type="text" id="age" class="input-text" name="age">
+                    <label for="age" class="text">Age</label>
+                </div>
+                <div>
+                    <input type="radio" id="female" class="input-radio" name="gender" value="female">
+                    <label for="age" class="text">Female</label>
+                </div>
+                <div>
+                    <input type="radio" id="male" class="input-radio" name="gender" value="male">
+                    <label for="age" class="text">Male</label>
+                </div>
+            </div>
+            <div class="line2">
+                <div>
+                    <input type="text" id="height" class="input-text" name="height">
+                    <label for="age" class="text">Height</label>
+                </div>
+                <div>
+                    <input type="text" id="weight" class="input-text" name="weight">
+                    <label for="age" class="text">Weight</label>
+                </div>
+            </div>
+            <div class="line3">
+                <div>
+                    <input type="button" id="submit" class="input-text" name="height" value="SUBMIT">
+                </div>
+            </div>
+            <div class="line4">
+                <label for="result" class="text" id="result" >BMI : 00.00 </label>
+            </div>
+            <div class="line5" id="comment">
+            </div>
+        </div>
+    </div>
+</body>
+</html>
